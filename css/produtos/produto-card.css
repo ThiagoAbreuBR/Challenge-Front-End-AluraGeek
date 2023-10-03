@@ -1,0 +1,63 @@
+.produto__card {
+  display: flex;
+background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.3rem 0.3rem;
+  box-sizing: border-box;
+  flex-direction: column;
+  height: 249px;
+  margin: 8px;
+  margin-bottom: 1.5rem;
+  padding: 14px 14px;
+  position: relative;
+  width: calc(16.6667% - 16px);
+  text-align: center;
+}
+
+@media screen and (max-width:767px) {
+  .produto__card {
+    margin: 4px;
+    margin-bottom: 1rem;
+    width: calc(50% - 8px);
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .produto__card {
+    margin: 4px;
+    margin-bottom: 1.5rem;
+    width: calc(25% - 8px);
+  }
+}
+
+.small-images {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Posiciona o elemento no canto esquerdo */
+  opacity: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: end;
+  /* Alinha o conteúdo no canto esquerdo */
+  width: 35%;
+  pointer-events: none;
+  /* Para permitir que o hover passe pelas imagens */
+}
+
+
+.small-images a,
+.small-images img {
+  pointer-events: auto;
+  /* Restaura o comportamento de clique */
+}
+
+.small-images img {
+  margin: 7px;
+  /* Espaçamento entre as duas imagens menores */
+  vertical-align: middle;
+}
+
+.produto__card:hover .small-images {
+  opacity: 1;
+}

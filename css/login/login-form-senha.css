@@ -1,0 +1,9 @@
+.login__form-senha {
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .login__form-senha {
+        width: 100%;
+    }
+}

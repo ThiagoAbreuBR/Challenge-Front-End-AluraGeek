@@ -1,0 +1,20 @@
+.cabecalho__nav-btn--login {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 2px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    height: 50px;
+    font-size: 17px;
+    justify-content: center;
+    width: 200px;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-btn--login {
+        height: 35px;
+        font-size: 14px;
+        width: 100px;
+    }
+}

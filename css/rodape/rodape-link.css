@@ -1,0 +1,22 @@
+.rodape__link {
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    align-items: start;
+}
+
+@media screen and (max-width:767px) {
+    .rodape__link  {
+        align-items: center;
+        margin-top:1rem;
+        width:100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .rodape__link  {
+        align-items:initial;
+        width:30%;
+        justify-content:start;
+    }
+}

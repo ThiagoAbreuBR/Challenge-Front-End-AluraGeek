@@ -1,0 +1,25 @@
+.cabecalho__nav-pesquisa--inputMobile {
+    background-color: #F5F5F5;
+    border: transparent;
+    border-radius: 14px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5rem 0.5rem;
+    width: 150px;
+}
+
+.cabecalho__nav-pesquisa--inputMobile::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;
+}
+
+.cabecalho__nav-pesquisa--inputMobile:focus {
+    border: 3px solid #2A7AE4;
+    outline: none;
+}
+
+@media screen and (min-width:767px) {
+    .cabecalho__nav-pesquisa--inputMobile {
+        display: none;
+    }
+}

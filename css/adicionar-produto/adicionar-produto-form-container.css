@@ -1,0 +1,10 @@
+.adicionar__produto-form--container {
+        position: relative;
+        width:50%;
+}
+
+@media screen and (max-width:1024px) {
+        .adicionar__produto-form--container {
+            width:100%;
+        }
+    }

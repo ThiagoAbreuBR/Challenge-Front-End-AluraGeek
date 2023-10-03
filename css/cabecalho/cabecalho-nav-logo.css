@@ -1,0 +1,12 @@
+.cabecalho__nav-logo {
+    display: flex;
+    justify-content: start;
+    width: 17%;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-logo {
+        width: 45%;
+        justify-content: center;
+    }
+}

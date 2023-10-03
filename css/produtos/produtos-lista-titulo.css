@@ -1,0 +1,10 @@
+.produtos__lista-titulo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:767px) {
+    .produtos__lista-titulo{
+    font-size:14px;
+    }
+}

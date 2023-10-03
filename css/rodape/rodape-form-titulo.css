@@ -1,0 +1,17 @@
+.rodape__form-titulo {
+    font-size:16px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:767px) {
+    .rodape__form-titulo {
+        font-size:13px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .rodape__form-titulo{
+        margin-top:0;
+    }
+}

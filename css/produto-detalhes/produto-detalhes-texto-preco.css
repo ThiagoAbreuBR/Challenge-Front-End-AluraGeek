@@ -1,0 +1,22 @@
+.produto__detalhes-texto-preco {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-top: 1.5rem;
+}
+
+@media screen and (max-width:767px) {
+    .produto__detalhes-texto-preco {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        margin-top: 0.7rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produto__detalhes-texto-preco {
+        font-size: 16px;
+        margin-top: 0.7rem;
+    }
+}

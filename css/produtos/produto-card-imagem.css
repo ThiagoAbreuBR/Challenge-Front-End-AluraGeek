@@ -1,0 +1,20 @@
+.produto__card-imagem {
+    height: 100%;
+    width: auto;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+@media screen and (max-width:767px) {
+    .produto__card-imagem {
+        height: 174px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produto__card-imagem {
+        height: 174px;
+        width: auto;
+    }
+}

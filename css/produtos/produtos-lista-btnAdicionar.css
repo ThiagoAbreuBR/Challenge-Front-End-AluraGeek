@@ -1,0 +1,12 @@
+.produtos__lista-btnAdicionar {
+    font-weight: normal;
+}
+
+@media screen and (max-width:767px) {
+    .produtos__lista-btnAdicionar{
+        width:100%;
+        font-size:10px;
+        margin-top:0.5rem;
+        padding:0.5rem 0.5rem;
+    }
+}

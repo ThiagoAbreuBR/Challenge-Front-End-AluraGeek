@@ -1,0 +1,15 @@
+.produtos__categoria-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #2A7AE4;;
+}
+
+@media screen and (max-width:600px) {
+    .produtos__categoria-link {
+    font-size:14px;
+    }
+}

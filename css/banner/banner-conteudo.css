@@ -1,0 +1,12 @@
+.banner__conteudo {
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:12rem;
+}
+
+@media screen and (max-width:600px) {
+    .banner__conteudo {
+      margin-left: 3rem;
+    }
+}

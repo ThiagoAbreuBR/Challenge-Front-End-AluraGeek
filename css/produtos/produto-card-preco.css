@@ -1,0 +1,23 @@
+.produtos__card-preco {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width:600px) {
+    .produtos__card-preco {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        margin-top: 0rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produtos__card-preco {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        margin-top: 0rem;
+    }
+}

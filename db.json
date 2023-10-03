@@ -1,0 +1,148 @@
+{
+  "produtos": [
+    {
+      "url": "https://m.media-amazon.com/images/I/51VZErxKwkL._AC_SL1000_.jpg",
+      "categoria": "Consoles",
+      "titulo": "Console PlayStation 5",
+      "preco": "R$4.423,38",
+      "descricao": "O PlayStation 5 é um console de última geração com tecnologia avançada e desempenho excepcional, oferecendo uma experiência de entretenimento virtual superior. Com uma interface de usuário aprimorada, resolução de até 8K para qualidade de imagem impressionante, o inovador controle DualSense que proporciona maior imersão, armazenamento espaçoso de 825 GB e um processador de 8 núcleos para jogos dinâmicos e responsivos, ele se destaca como o melhor do mercado. Além disso, sua conectividade conveniente e opções de entretenimento multimídia tornam-no a escolha ideal para entusiastas de jogos e entretenimento.",
+      "id": 1
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51A41nLe5IL.jpg",
+      "categoria": "Consoles",
+      "titulo": "Console Xbox Series X",
+      "preco": "R$4.390,00",
+      "descricao": "O Xbox Series X oferece um desempenho excepcional no mundo dos consoles, com capacidade para rodar jogos em resolução 4K a até 120 frames por segundo, graças a uma poderosa GPU da AMD de 12 Teraflops e recursos como o Ray Tracing. Além disso, o console oferece acesso ao serviço Xbox Game Pass, que inclui jogos exclusivos como Gears 5, Ori and the Blind Forest e Forza Horizon 4, bem como compatibilidade com jogos do Xbox One e Xbox 360. Com um SSD de 1 TB de armazenamento, é possível baixar uma grande quantidade de conteúdo, com opções de upgrades disponíveis. Os acessórios das versões anteriores são compatíveis, e o Xbox Cloud Gaming permite jogar em nuvem em diversos dispositivos. Isso faz do Xbox Series X um sucesso de vendas e uma escolha atraente para os jogadores.",
+      "id": 2
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/81Xn9DCEk4L._AC_SL1500_.jpg",
+      "categoria": "Consoles",
+      "titulo": "Console PlayStation 4 Pro",
+      "preco": "R$3.299,00",
+      "descricao": "O PS4 Pro oferece jogos em 4K dinâmico e entretenimento de alta qualidade, com gráficos incríveis que tornam os mundos dos jogos mais detalhados. A compatibilidade com taxas de quadros mais rápidas proporciona uma experiência de jogo extremamente nítida em alguns títulos do PS4. Além disso, o PS4 Pro permite jogar online com outros usuários do PS4 por meio do PlayStation Plus e oferece streaming em até 4K, com aprimoramento automático de 4K para conteúdos de vídeo. Com sua potência, o PS4 Pro eleva o nível das aventuras e proporciona uma experiência de entretenimento excepcional. É compatível com todos os jogos para PS4 e funciona em sistemas bivolt.",
+      "id": 3
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61pLq5gGgjL._AC_SL1000_.jpg",
+      "categoria": "Consoles",
+      "titulo": "Console Xbox One S Branco",
+      "preco": "R$2.040,00",
+      "descricao": "O console Xbox One S de 1TB oferece acesso a mais de 1.300 jogos exclusivos do Xbox One, acompanhado por 14 dias grátis do Xbox Live Gold e 1 mês de Xbox Game Pass. Os jogadores podem desfrutar de jogos em 4K de alta qualidade, incluindo Blu-ray Ultra HD 4K integrado e transmissão de vídeo em 4K. A funcionalidade dos jogos Xbox Play Anywhere permite a continuidade do jogo entre Xbox One e Windows 10. Com 100 jogos adicionais imediatos através do Xbox Game Pass, o Xbox One S oferece gráficos HDR brilhantes, áudio premium, jogos online rápidos e acesso a aplicativos populares como YouTube e Netflix. Este é o momento perfeito para se juntar à diversão com o Xbox One.",
+      "id": 4
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/41b+3+vmt7L._AC_.jpg",
+      "categoria": "Consoles",
+      "titulo": "Console Nintendo Switch Oled",
+      "preco": "R$2.232,92",
+      "descricao": "O mais novo membro da família Nintendo entrega a versatilidade de um console portátil e doméstico, com a adição de uma tela OLED vibrante de 7 polegadas (17,78 cm), um amplo suporte ajustável, uma base com uma porta LAN integrada, 64 GB de espaço de armazenamento interno e um áudio aprimorado. Inclui o console Nintendo Switch, base Nintendo Switch, Joy-Con (G) branco, Joy-Con (R) branco, alças de pulso Joy-con, cabo HDMI de alta velocidade, adaptador CA Nintendo Switch.",
+      "id": 5
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71cs1KSJt7L._AC_SL1500_.jpg",
+      "categoria": "Consoles",
+      "titulo": "Notebook Acer Gamer Nitro 5",
+      "preco": " R$4.399,00",
+      "descricao": "O notebook Acer Gamer Nitro 5 AN515-45-R1FQ oferece um excelente desempenho com uma GPU Nvidia GeForce GTX 1650 com 4 GB de memória dedicada GDDR6, processador AMD Ryzen R7-5800H Octa-Core e uma tela de 15,6' IPS com uma alta taxa de atualização de 144Hz e resolução Full HD. Além disso, possui um teclado retroiluminado na cor vermelha e opera no sistema operacional Windows 11. Com essas especificações, é uma ótima escolha para jogadores que desejam uma experiência de jogo imersiva e de alta qualidade.",
+      "id": 6
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/612-CEICubL._AC_SL1000_.jpg",
+      "categoria": "Jogos",
+      "titulo": "Mortal Kombat 1 - PlayStation 5",
+      "preco": "R$300,93",
+      "descricao": "Em Mortal Kombat 1, uma nova realidade é forjada pelo Deus do Fogo Liu Kang, que busca criar um mundo mais pacífico ao reiniciar o tempo e a história. Personagens familiares entram nesse universo remodelado com novas origens e histórias, incluindo mudanças surpreendentes, como Raiden tornando-se humano e Liu Kang assumindo o papel de deus. No entanto, Liu Kang percebe uma interferência misteriosa em seu plano e se empenha em descobrir o responsável antes que essa ameaça desconhecida destrua toda a realidade. É um recomeço para a série, reimaginando sua narrativa eterna com reviravoltas intrigantes.",
+      "id": 7
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61zPVEwdzBL._AC_SL1000_.jpg",
+      "categoria": "Jogos",
+      "titulo": "FIFA 23 - Xbox Series X",
+      "preco": "R$244,99",
+      "descricao": "O EA SPORTS™ FIFA 23 entrega ainda mais ação e realismo do futebol aos campos do Maior Jogo do Mundo com avanços na tecnologia HyperMotion2, que agora tem o dobro de capturas de movimentos do mundo real, criando animações de futebol mais reais do que nunca. Dispute nos maiores torneios de futebol, que contará com a chegada da FIFA World Cup™ masculina e feminina ao FIFA 23 durante a temporada, jogue com times femininos pela primeira vez na história usando a tecnologia de animação dedicada HyperMotion2, e aproveite os recursos de crossplay para desafiar as pessoas conhecidas. Encontre uma nova maneira de jogar e crie seu time dos sonhos no FIFA Ultimate Team™ com Momentos FUT e um sistema de entrosamento renovado, ou viva seus sonhos no futebol no Modo Carreira definindo a personalidade da sua estrela e gerenciando grandes nomes do esporte. Deixe o VOLTA FOOTBALL e Pro Clubs com a sua cara com novos níveis de personalização para os campos, além de melhorias na jogabilidade nas ruas e no estádio. Viva da sua maneira o inigualável Jogo de Todo Mundo no FIFA 23, que conta com 19.000 atletas, mais de 700 times, 100 estádios e 30 ligas, incluindo a UEFA Champions League, a Premier League e as novas Barclays FA Women’s Super League e a D1 Arkema francesa.",
+      "id": 8
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71T0-Nm13uL._AC_SL1020_.jpg",
+      "categoria": "Jogos",
+      "titulo": "Red Dead Redemption 2 - PlayStation 4",
+      "preco": "R$140,62",
+      "descricao": "Red Dead Redemption 2, muitas vezes chamado de 'Grand Theft Auto do velho oeste', continua a saga iniciada por Red Dead Redemption e oferece uma aventura repleta de ação e profundidade. O jogo é considerado um 'conto épico da vida no interior implacável da América' e cativa os fãs com sua rica história, jogabilidade envolvente, personagens memoráveis e vastos mapas repletos de possibilidades de exploração. Com um mundo aberto expansivo, Red Dead Redemption 2 permite que os jogadores mergulhem na ambientação do velho oeste, vivenciando a época do jogo de forma imersiva. Montar a cavalo, usar revólveres e explorar cidades, florestas, lagos, fazendas e muito mais fazem parte da experiência emocionante deste título desenvolvido pela Rockstar Studios e publicado pela Rockstar Games.",
+      "id": 9
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/91sR0Nu8JEL._AC_SL1500_.jpg",
+      "categoria": "Jogos",
+      "titulo": "Batman. Arkham Knight - Xbox One",
+      "preco": "R$51,89",
+      "descricao": "Batman: Arkham Knight é o capítulo épico que encerra a premiada trilogia Arkham da Rocksteady Studios. Desenvolvido exclusivamente para as plataformas de nova geração, o jogo introduz uma versão única e icônica do Batmóvel criada pela Rocksteady. A inclusão tão aguardada deste lendário veículo, combinada com a jogabilidade elogiada da série Arkham, proporciona aos jogadores uma experiência completa e definitiva no universo do Batman. Eles podem explorar as ruas e os céus de Gotham City, desfrutando da liberdade de movimento e combate que tornaram a série famosa. Com gráficos impressionantes e uma narrativa envolvente, Batman: Arkham Knight oferece aos fãs do Cavaleiro das Trevas uma conclusão memorável e cheia de ação para esta trilogia icônica.",
+      "id": 10
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61aAOUt8mWL._AC_SL1020_.jpg",
+      "categoria": "Jogos",
+      "titulo": "Sonic Forces - Nintendo Switch Oled",
+      "preco": "R$149,89",
+      "descricao": "Sonic Forces, da NC Games, oferece uma experiência divertida e emocionante ao reviver o Sonic clássico em um estilo de corrida. O jogo apresenta ambientes de ruínas e cidades antigas, com Sonic Moderno e Sonic Clássico em cenários tridimensionais. Os jogadores podem desfrutar de três modos de jogo únicos, explorar fases icônicas e até jogar como o personagem Shadow. Este jogo é adequado para todas as idades, com uma jogabilidade incrível que permite aos jogadores assumirem o papel do adorado ouriço. Para garantir sua diversão, é importante escolher cuidadosamente os jogos, a plataforma e a produtora. A NC Games oferece produtos de qualidade para horas de entretenimento, seja sozinho ou com amigos. Lembre-se de que momentos de descontração são essenciais para uma vida mais feliz e leve. Portanto, escolha produtos de entretenimento de qualidade para se divertir ao máximo.",
+      "id": 11
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/91T0XQv8gEL._AC_SL1500_.jpg",
+      "categoria": "Jogos",
+      "titulo": "Grand Theft Auto V PC",
+      "preco": "R$ 82,41",
+      "descricao": "GTA V para PC é um jogo de ação-aventura em mundo aberto que se desenrola na fictícia cidade de Los Santos, onde os jogadores controlam três protagonistas interconectados em uma trama épica de crime e corrupção. Com um vasto mundo aberto repleto de atividades, tiroteios intensos e personalização de veículos e personagens, o jogo oferece gráficos de alta qualidade e suporte para resoluções 4K, proporcionando uma experiência visual impressionante. Além disso, o modo online 'Grand Theft Auto Online' permite que os jogadores explorem o mundo compartilhado e participem de missões em equipe, tornando-o uma experiência de jogo altamente envolvente e dinâmica.",
+      "id": 12
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51rMTSLaVmL._AC_SL1000_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Batman - DC",
+      "preco": "R$344,90",
+      "descricao": "Esta action figure é uma peça de colecionador altamente detalhada do Batman do filme 'The Flash'. Ela captura perfeitamente a essência do Cavaleiro das Trevas, apresentando o traje clássico de 1989, com detalhes meticulosos, incluindo o icônico símbolo do morcego no peito e uma textura realista no tecido e no cinto de utilidades.",
+      "id": 13
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51x7MAewIqL._AC_SL1000_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Coringa - DC",
+      "preco": "R$299,90",
+      "descricao": "Esta action figure é uma representação extremamente detalhada e fiel do famoso vilão Coringa da série de jogos Arkham. O Coringa é retratado vestindo seu traje clássico, que inclui um colete roxo, calças e sapatos. Seu rosto apresenta a icônica maquiagem perturbadora, com um sorriso sinistro e cabelos verdes desalinhados. Cada aspecto da figura foi cuidadosamente projetado para capturar com precisão a aparência característica do Coringa nos jogos Arkham.",
+      "id": 14
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/71bfFivNthL._AC_SL1500_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Thanos - Marvel",
+      "preco": "199,90",
+      "descricao": "Esta action figure excepcional do Thanos, com seu uniforme clássico dourado, é uma representação impressionante do temível vilão da Marvel. Cada detalhe foi cuidadosamente projetado para capturar a imponência e a presença avassaladora do Titã Louco. O traje dourado icônico é ricamente detalhado, com texturas metálicas e detalhes de armadura, criando uma aparência imponente e ameaçadora. O rosto do Thanos exibe uma expressão determinada e dominante, refletindo sua ambição de conquista cósmica e seu sentimento de superioridade. Esta action figure é uma peça obrigatória para qualquer coleção de fãs do Thanos e do Universo Marvel.",
+      "id": 15
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/51p6u4rZoKL._AC_SL1000_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Capitão América - Marvel",
+      "preco": "149,90",
+      "descricao": "Com seu uniforme icônico em azul e vermelho, poderes de super-soldado e aparência super-realista, esta action figure é uma aventura cheia de ação esperando para acontecer. Além disso, seu escudo indestrutível e os detalhes impecáveis no uniforme fazem desta action figure o presente incrível para um jovem fã de super-heróis e filmes de ação. É a escolha ideal para estimular a imaginação e permitir que as crianças criem suas próprias histórias heróicas no emocionante universo Marvel.",
+      "id": 16
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/81LhPtQBklL._AC_SL1500_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Darth Vader - Star Wars",
+      "preco": "149,90",
+      "descricao": "Esta action figure do Darth Vader é uma representação impressionantemente detalhada e imponente do icônico vilão da saga 'Star Wars'. Vestido com seu distintivo traje negro, capa de tecido, cinto de detalhes e botas, Darth Vader é retratado com sua máscara e capacete característicos que transmitem sua presença intimidante. A figura inclui o icônico sabre de luz vermelho de Darth Vader para recriar cenas de duelos emocionantes. Esta action figure é uma homenagem digna a um dos vilões mais icônicos da história do cinema, com atenção meticulosa aos detalhes e presença imponente, tornando-a uma adição essencial para qualquer coleção de fãs de 'Star Wars'.",
+      "id": 17
+    },
+    {
+      "url": "https://m.media-amazon.com/images/I/61cmFBiD5bS._AC_SL1000_.jpg",
+      "categoria": "Action Figures",
+      "titulo": "Luffy - One Piece",
+      "preco": "119,90",
+      "descricao": "Esta excepcional action figure de Luffy, o protagonista carismático da série de anime e mangá 'One Piece', é uma representação altamente detalhada do famoso pirata do Chapéu de Palha em um momento épico, capturando perfeitamente seu espírito aventureiro. Vestido com seu traje de pirata característico, incluindo o chapéu de palha, camisa vermelha, calças azuis e sandálias, cada detalhe, desde seu sorriso característico até a cicatriz sob o olho, é reproduzido com precisão, capturando sua personalidade destemida enquanto ele prepara seu lendário 'Soco de Fogo'. Esta figura de ação é uma homenagem impressionante ao personagem e é uma adição imperdível para qualquer coleção de fãs de 'One Piece'. Sua atenção aos detalhes e pose dinâmica tornam-na uma peça de destaque que celebra um dos momentos mais icônicos do personagem.",
+      "id": 18
+    }
+  ]
+}

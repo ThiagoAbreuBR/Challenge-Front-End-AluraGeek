@@ -1,0 +1,90 @@
+body {
+  background-color: #F5F5F5;
+  font-family: 'Quicksand', sans-serif;
+  color: #000000;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+
+body::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000000;
+}
+
+main {
+  margin-top: 115px;
+}
+
+.styleInput {
+  border: transparent;
+  border-bottom: 3px solid #CCCCCC;
+  border-radius: 0.3rem 0.3rem;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  height: 56px;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.styleInput:focus {
+  border: transparent;
+  border-bottom: 3px solid #CCCCCC;
+  outline: none;
+}
+
+.styleBtn {
+  background-color: #2A7AE4;
+  border: transparent;
+  border-radius: 0.3rem 0.3rem;
+  box-sizing: border-box;
+  /* Considera a largura total, incluindo padding e borda */
+  color: #FFFFFF;
+  cursor: pointer;
+  height: 51px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 1rem;
+  max-width: 100%;
+  /* Define a largura máxima igual à largura da div */
+  padding: 16px;
+  width: 165px;
+}
+
+
+.placeholder {
+  position: absolute;
+  pointer-events: none;
+  top: 55%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+@media screen and (max-width:600px) {
+  main {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  main {
+    margin-top: 60px;
+  }
+}
+
+.testeimg {
+  cursor: pointer;
+}

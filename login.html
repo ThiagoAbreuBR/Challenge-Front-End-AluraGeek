@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-logo.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-logo-imagem.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-input.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-btn.css">
+    <link rel="stylesheet" href="./css/login/login.css">
+    <link rel="stylesheet" href="./css/login/login-form.css">
+    <link rel="stylesheet" href="./css/login/login-form-container.css">
+    <link rel="stylesheet" href="./css/login/login-form-titulo.css">
+    <link rel="stylesheet" href="./css/login/login-form-email.css">
+    <link rel="stylesheet" href="./css/login/login-form-senha.css">
+    <link rel="stylesheet" href="./css/login/login-form-btnEnviar.css">
+    <link rel="stylesheet" href="./css/rodape/rodape.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-container.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-logo.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-link.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-link-item.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-titulo.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-mensagem.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-btnEnviar.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-container.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor-nome.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor-ano.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <ul class="cabecalho__nav">
+            <li class="cabecalho__nav-logo">
+                <a href="index.html">
+                    <h1><img class="cabecalho__nav-logo--imagem" src="./img/logo.svg" alt="Logo do Alura Geek"></h1>
+                </a>
+            </li>
+            <li class="cabecalho__nav-pesquisa">
+                <input type="search" class="cabecalho__nav-pesquisa--input" placeholder="O que deseja encontrar ?">
+              <a href="produtos.html"> <button class="cabecalho__nav-pesquisa--btn"><img src="./img/lupa.svg" alt="Lupa de pesquisa"></button></a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+
+        <section class="login">
+            <form class="login__form">
+                <h2 class="login__form-titulo">Iniciar Sessão</h2>
+                <div class="login__form--container">
+                    <input type="email" class="login__form-email animationInput styleInput" required id="email">
+                    <label class="placeholder">Escreva seu e-mail</label>
+                </div>
+                <div class="login__form--container">
+                    <input type="password" class="login__form-senha animationInput styleInput" required id="senha"
+                        minlength="6">
+                    <label class="placeholder">Escreva sua senha</label>
+                </div>
+                <input type="submit" class="login__form-btnEnviar styleBtn">
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__logo">
+                <img src="./img/logo.svg" alt="Logo da Alura Geek">
+            </div>
+            <ul class="rodape__link">
+                <li class="rodape__link-item">Quem somos nós</li>
+                <li class="rodape__link-item">Política de privacidade</li>
+                <li class="rodape__link-item">Programa fidelidade</li>
+                <li class="rodape__link-item">Nossas lojas</li>
+                <li class="rodape__link-item">Quero ser franqueado</li>
+                <li class="rodape__link-item">Anuncie aqui</li>
+            </ul>
+            <form class="rodape__form">
+                <h2 class="rodape__form-titulo">Fale conosco</h2>
+                <div class="rodape__form--container">
+                    <input type="text" class="rodape__form-nome styleInput animationInput">
+                    <label class="placeholder">Nome</label>
+                </div>
+                <div class="rodape__form--container">
+                    <input type="text" class="rodape__form-mensagem styleInput animationInput">
+                    <label class="placeholder">Escreva sua mensagem</label>
+                </div>
+                <button type="submit" class="rodape__form-btnEnviar styleBtn">Enviar mensagem</button>
+            </form>
+        </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

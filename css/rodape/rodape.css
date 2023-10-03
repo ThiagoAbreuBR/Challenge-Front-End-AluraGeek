@@ -1,0 +1,22 @@
+.rodape {
+    display: flex;
+    background-color: #EAF2FD;
+    height: 390px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px) {
+    .rodape {
+        height:553px;
+        
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .rodape {
+        height:364px;
+    }
+}

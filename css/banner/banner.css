@@ -1,0 +1,12 @@
+.banner {
+    background: url("./../../img/banner.jpg") no-repeat center/cover;
+    display:flex;
+    height:475px;
+    width:100%;
+}
+
+@media screen and (max-width:600px) {
+    .banner {
+       height:200px;
+    }
+}

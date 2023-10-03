@@ -1,0 +1,34 @@
+.cabecalho__nav-pesquisa--input {
+    background-color: #F5F5F5;
+    border: transparent;
+    border-radius: 14px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.7em 1em;
+    width: 350px;
+}
+
+.cabecalho__nav-pesquisa--input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+}
+
+.cabecalho__nav-pesquisa--input:focus {
+    border: 3px solid #2A7AE4;
+    outline: none;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-pesquisa--input {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cabecalho__nav-pesquisa--input {
+        width: 272px;
+        height: 40px;
+        padding: 8px 16px 8px 16px;
+        border-radius: 20px;
+    }
+}

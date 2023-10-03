@@ -1,0 +1,12 @@
+.cabecalho__nav-pesquisa {
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-pesquisa {
+        justify-content: center;
+        width: 10%;
+    }
+}

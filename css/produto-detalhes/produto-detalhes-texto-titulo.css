@@ -1,0 +1,20 @@
+.produto__detalhes-texto-titulo {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px) {
+    .produto__detalhes-texto-titulo {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-top: 1.4rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produto__detalhes-texto-titulo {
+        font-size: 22px;
+        height: 26px;
+    }
+}

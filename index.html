@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-logo.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-logo-imagem.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisaMobile.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-input.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-inputMobile.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-btn.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-pesquisa-btnMobile.css">
+    <link rel="stylesheet" href="./css/cabecalho/cabecalho-nav-btn-login.css">
+    <link rel="stylesheet" href="./css/banner/banner.css">
+    <link rel="stylesheet" href="./css/banner/banner-conteudo.css">
+    <link rel="stylesheet" href="./css/banner/banner-titulo.css">
+    <link rel="stylesheet" href="./css/banner/banner-subtitulo.css">
+    <link rel="stylesheet" href="./css/banner/banner-btn.css">
+    <link rel="stylesheet" href="./css/produtos/produtos.css">
+    <link rel="stylesheet" href="./css/produtos/produtos-categoria.css">
+    <link rel="stylesheet" href="./css/produtos/produtos-categoria-titulo.css">
+    <link rel="stylesheet" href="./css/produtos/produtos-categoria-link.css">
+    <link rel="stylesheet" href="./css/produtos/produto.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card-mensagem.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card-imagem.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card-nome.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card-preco.css">
+    <link rel="stylesheet" href="./css/produtos/produto-card-detalhes.css">
+    <link rel="stylesheet" href="./css/rodape/rodape.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-container.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-logo.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-link.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-link-item.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-titulo.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-mensagem.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-btnEnviar.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-form-container.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor-nome.css">
+    <link rel="stylesheet" href="./css/rodape/rodape-desenvolvedor-ano.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <ul class="cabecalho__nav">
+            <li class="cabecalho__nav-logo">
+                <a href="index.html">
+                    <h1><img class="cabecalho__nav-logo--imagem" src="./img/logo.svg" alt="Logo do Alura Geek"></h1>
+                </a>
+            </li>
+            <li class="cabecalho__nav-pesquisa">
+                <input type="search" class="cabecalho__nav-pesquisa--input" placeholder="O que deseja encontrar ? "data-pesquisa>
+                <button class="cabecalho__nav-pesquisa--btn"><img src="./img/lupa.svg" alt="Lupa de pesquisa" data-btn-pesquisa></button>
+                <button class="cabecalho__nav-pesquisa--btnMobile" id="btnPesquisa"><img src="./img/lupa.svg" alt="Lupa de pesquisa">
+            </li>
+            <li class="cabecalho__nav-pesquisaMobile" id="pesquisaMobile">
+                <input type="search" class="cabecalho__nav-pesquisa--inputMobile" placeholder="O que deseja encontrar ?" data-pesquisa-mobile id="pesquisaInput">
+                <button  id="btnMobile" class="cabecalho__nav-pesquisa--btnMobile"><img src="./img/lupa.svg" alt="Lupa de pesquisa" data-btn-pesquisa-mobile></button>
+            </li>
+            <li class="cabecalho__nav-btn">
+                <a href="login.html"><button class="cabecalho__nav-btn--login" id="btnLogin">Login</button></a>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner__conteudo">
+                <h2 class="banner__titulo">Agosto Promocional</h2>
+                <h3 class="banner__subtitulo">Produtos selecionados com 33% de desconto</h3>
+                <a href="#consoles"><button class="banner__btn">Ver consoles</button></a>
+            </div>
+        </section>
+
+
+        <div class="produto" data-produto></div>
+
+        <section class="produtos">
+
+            <div class="produtos__categoria">
+                <h2 class="produtos__categoria-titulo">Consoles</h2>
+                <a href="produtos.html">
+                    <h2 class="produtos__categoria-link">Ver tudo >>></h2>
+                </a>
+            </div>
+
+            <div class="produto" data-consoles>
+
+            </div>
+
+            <div class="produtos__categoria apply-margin">
+                <h2 class="produtos__categoria-titulo">Jogos</h2>
+                <a href="produtos.html">
+                    <h2 class="produtos__categoria-link">Ver tudo >>></h2>
+                </a>
+            </div>
+
+            <div class="produto" data-jogos>
+
+            </div>
+
+            <div class="produtos__categoria apply-margin">
+                <h2 class="produtos__categoria-titulo">Action Figures</h2>
+                <a href="produtos.html">
+                    <h2 class="produtos__categoria-link">Ver tudo >>></h2>
+                </a>
+            </div>
+
+            <div class="produto" data-actionFigures>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__logo">
+                <img src="./img/logo.svg" alt="Logo da Alura Geek">
+            </div>
+            <ul class="rodape__link">
+                <li class="rodape__link-item">Quem somos nós</li>
+                <li class="rodape__link-item">Política de privacidade</li>
+                <li class="rodape__link-item">Programa fidelidade</li>
+                <li class="rodape__link-item">Nossas lojas</li>
+                <li class="rodape__link-item">Quero ser franqueado</li>
+                <li class="rodape__link-item">Anuncie aqui</li>
+            </ul>
+            <form class="rodape__form">
+                <h2 class="rodape__form-titulo">Fale conosco</h2>
+                <div class="rodape__form--container">
+                    <input type="text" class="rodape__form-nome styleInput animationInput">
+                    <label class="placeholder">Nome</label>
+                </div>
+                <div class="rodape__form--container">
+                    <input type="text" class="rodape__form-mensagem styleInput animationInput">
+                    <label class="placeholder">Escreva sua mensagem</label>
+                </div>
+                <button type="submit" class="rodape__form-btnEnviar styleBtn">Enviar mensagem</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>

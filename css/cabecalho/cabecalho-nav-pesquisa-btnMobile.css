@@ -1,0 +1,23 @@
+.cabecalho__nav-pesquisa--btnMobile {
+    display: none;
+    background-color: #F5F5F5;
+    border: transparent;
+    border-radius: 14px;
+    padding: 7px 7px;
+}
+
+.cabecalho__nav-pesquisa--btnMobile img {
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+}
+
+.cabecalho__nav-pesquisa--btnMobile:focus {
+    border: 1px solid #2A7AE4;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-pesquisa--btnMobile {
+        display: block;
+    }
+}

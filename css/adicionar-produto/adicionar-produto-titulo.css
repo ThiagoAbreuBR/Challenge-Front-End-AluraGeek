@@ -1,0 +1,13 @@
+.adicionar__produto-titulo {
+    display:flex;
+    font-size: 32px;
+    font-weight: bold;
+    width:50%;
+}
+
+@media screen and (max-width:1024px) {
+    .adicionar__produto-titulo {
+        width:100%;
+        font-size:25px;
+    }
+}

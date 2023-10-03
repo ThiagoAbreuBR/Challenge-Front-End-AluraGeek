@@ -1,0 +1,20 @@
+.produtos__similares-titulo {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:767px) {
+    .produtos__similares-titulo {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;    
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produtos__similares-titulo {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+}

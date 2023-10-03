@@ -1,0 +1,19 @@
+.produto__detalhes-texto {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:55%;
+}
+
+@media screen and (max-width:767px) {
+    .produto__detalhes-texto {
+        width:90%;
+        margin:0 auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produto__detalhes-texto {
+        width:57%;
+    }
+}

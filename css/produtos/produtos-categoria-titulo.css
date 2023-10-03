@@ -1,0 +1,11 @@
+.produtos__categoria-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:768px) {
+    .produtos__categoria-titulo{
+    font-size:14px;
+    }
+}

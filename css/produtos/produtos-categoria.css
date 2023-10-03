@@ -1,0 +1,10 @@
+.produtos__categoria {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.produtos__categoria.apply-margin {
+    margin-top: 1.5rem;
+}

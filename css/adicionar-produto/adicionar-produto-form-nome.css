@@ -1,0 +1,17 @@
+.adicionar__produto-form--nome {
+    width:100%;
+}
+
+.adicionar__produto-form--nome:focus+.placeholder,
+.adicionar__produto-form--nome:not(:placeholder-shown)+.placeholder {
+    font-size: 12px;
+    transform: translateY(-150%);
+    color: #999;
+}
+
+@media screen and (max-width:768px) {
+    .adicionar__produto-form--nome {
+        font-size:13px;
+        height:50px;
+    }
+}

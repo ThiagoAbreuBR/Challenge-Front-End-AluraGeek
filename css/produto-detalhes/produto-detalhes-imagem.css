@@ -1,0 +1,35 @@
+.produto__detalhes-imagem {
+    align-items: start;
+    display: flex;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+.produto__detalhes-imagem img {
+    height: 403px;
+    width: 560px; 
+    object-fit: contain;
+}
+
+@media screen and (max-width:767px) {
+    .produto__detalhes-imagem {
+        width: 100%;
+    }
+
+    .produto__detalhes-imagem img {
+        height: 192px;
+        width: 360px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produto__detalhes-imagem {
+        width: 40%;
+        justify-content: start;
+    }
+
+    .produto__detalhes-imagem img {
+        height: 157px;
+        width: 254px;
+    }
+}

@@ -1,0 +1,25 @@
+.produtos__similares {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top:3rem;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:767px) {
+    .produtos__similares {
+        width: 95%;
+        margin-top:1.5rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produtos__similares {
+        width: 93%;
+        margin-top:3rem;
+    }
+}

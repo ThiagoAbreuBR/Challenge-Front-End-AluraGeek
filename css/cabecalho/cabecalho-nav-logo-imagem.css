@@ -1,0 +1,18 @@
+.cabecalho__nav-logo--imagem {
+    height: 50px;
+    width: 176px;
+}
+
+@media screen and (max-width:767px) {
+    .cabecalho__nav-logo--imagem {
+        height: 28px;
+        width: 100px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .cabecalho__nav-logo--imagem {
+        height: 28px;
+        width: 100px;
+    }
+}

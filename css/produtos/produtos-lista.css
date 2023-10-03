@@ -1,0 +1,21 @@
+.produtos__lista {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top:3.5rem;
+    margin-bottom:0.7rem;
+    width: 100%;
+}
+
+@media screen and (max-width:767px) {
+    .produtos__lista {
+        margin-top:1rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .produtos__lista {
+        margin-top:1.5rem;
+    }
+}
