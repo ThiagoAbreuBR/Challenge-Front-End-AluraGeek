@@ -23,4 +23,4 @@ $ npm install
 $ json-server db.json
 ```
 ## Acesse o link:
-[aqui](https://challenge-front-end-alura-geek.vercel.app/)
+[AluraGeek](https://thiagoabreubr.github.io/Challenge-Front-End-AluraGeek/)
